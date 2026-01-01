@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "lejkonormal";
+    src: url(fonts/crikey_tall-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: "cubosnormal";
+    src: url(fonts/crikey_squat-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: "popit";
+    src: url(fonts/popit-webfont.ttf) format('truetype');
+}
+
+body{
+    background-color: rgb(112, 178, 201);
+    background-image: url(img/background-repeat.jpg); background-repeat: no-repeat; background-position-x: center;
+    background-image: url(img/background.jpg);
+}
+
+#sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+}
+
+#topbartexts{
+    margin-top: -33px;
+    margin-left: 650px;
+    font-family: "cubosnormal";
+    size: 200px;
+    background-color: rgba(0, 0, 0, 0.0);
+    text-decoration: none;
+    border: none;
+}
+
+#logomain{
+    width: 22%;
+    height: auto;
+    margin-top: 2vh;
+}
+
+#sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    margin-top: -11vh;
+    margin-left: 28vw;
+    margin-right: 28vw;
+    
+}
+
+#sec3{
+    background: linear-gradient(180deg, rgba(253, 22, 170, 0.9), rgba(226, 14, 150, 0.9));
+    margin-left: 64vw;
+    margin-right: 25vw;
+    max-height: 30vh;
+    min-height: 30vh;
+    padding: 10px;
+    border-radius: 20px;
+    
+    backdrop-filter: blur(2px);
+    white-space: wrap;
+
+    position: fixed;
+    text-align: center;
+}
+
+#sec4{
+    background: linear-gradient(180deg, rgba(48, 124, 181, 0.85), rgba(50, 220, 209, 0.85));
+    margin-left: 25vw;
+    margin-right: 36vw;
+    max-height: 30vh;
+    min-height: 30vh;
+    padding: 10px;
+    border-radius: 20px;
+
+    backdrop-filter: blur(2px);
+    white-space: wrap;
+
+    position: fixed;
+
+    text-align: center;
+
+}
+
+.inbetwen{
+    width: 10vw;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+
+#sec_project{
+    background: linear-gradient(180deg, rgba(48, 1, 255, 0.85), rgba(128, 16, 255, 0.85));
+    margin-left: 25vw;
+    margin-right: 25vw;
+    max-height: 30vh;
+    min-height: 30vh;
+    padding: 10px;
+    border-radius: 20px;
+    
+    backdrop-filter: blur(2px);
+    white-space: wrap;
+
+    text-align: center;
+}
+
+.listgonczyusoka{
+    font-family: "cubosnormal";
+    font-size: 140%;
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 0px;
+
+    text-align: center;
+    
+}
+
+.popiticons{
+    font-family: "popit";
+    font-size: 1000%;
+    margin-top: 0px;
+    font-weight: lighter;
+    color: aliceblue;
+
+    text-align: center; 
+}
+
+.textforhomepage{
+    font-family: "lejkonormal";
+    font-size: 210%;
+    color: rgba(255, 255, 255, 0.99);
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.textforproj{
+    font-family: "lejkonormal";
+    font-size: 210%;
+    color: rgba(255, 255, 255, 0.99);
+
+    text-align: center;
+}
+
+.selectortext{
+    font-family: "lejkonormal";
+    font-size: 400%;
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
